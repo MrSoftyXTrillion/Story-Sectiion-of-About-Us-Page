@@ -1,0 +1,65 @@
+/* !COMMON CSS STARTS HERE====================================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap');
+:root {
+    --primaryFont: 'Josefin Sans', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--primaryFont);
+    background-color: rgb(255, 255, 255);
+}
+h1,h2,h3,h4,h5,h6,span,paragraph,ol,ul {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* !COMMON CSS ENDS HERE======================================================================================== */
+
+/* !STORY SECTION STARTS HERE */
+#story {
+    background-color: #F1F3F4;
+    position: relative;
+    margin-top: 100px;
+}
+#story .textPart {
+    padding: 103px 0px 103px 0;
+}
+#story .textPart h3 {
+    color: var(--text-color, #11161E);
+    font-family: var(--primaryFont);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+}
+#story .textPart p {
+    color: var(--paragraph-color, #444);
+    text-align: justify;
+    font-family: var(--secondaryFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-right: 57px;
+}
+#story .textPart p:last-child {
+    padding-top: 14px;
+}
+#story .imgPart {
+    background-color: #A6AAB7;
+    display: flex;
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+/* !STORY SECTION ENDS HERE */
